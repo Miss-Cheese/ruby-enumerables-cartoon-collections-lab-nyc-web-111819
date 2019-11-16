@@ -3,12 +3,17 @@
 def roll_call_dwarves(array)
 
   array.each_with_index {|index, dwarf|
-  roll_call_number = array[0] + 1
+  roll_call_number = index.to_i + 1
 
   }
   puts "#{roll_call_number}" "." "#{dwarf}"
 
 end
+
+# def index_to_input(num)
+#   num.to_i + 1
+# end
+
 
 def summon_captain_planet(array)
   captain_array = array
