@@ -21,7 +21,6 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  # the array below is here to help
 
   cheese_types = ["cheddar", "gouda", "camembert"]
 
@@ -34,13 +33,3 @@ def find_the_cheese(array)
     nil
 
 end
-
-
-
-# def reverse_each_word(sentence)
-#   sentence_array = sentence.split(/ /)
-#   result = sentence_array.collect do |binkbutt|
-#   binkbutt.reverse
-#   end
-#   result.join(" ")
-# end
