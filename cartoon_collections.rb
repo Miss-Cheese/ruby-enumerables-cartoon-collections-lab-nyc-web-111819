@@ -23,14 +23,14 @@ def find_the_cheese(array)
 
   cheese_types = ["cheddar", "gouda", "camembert"]
 
+    if array.include?("cheddar")
+      "cheddar"
+    end
 
-  array.include?("cheddar")
-  #   return
-  # else nil
-
+nil
 
 end
-#
+
 
 
 # def reverse_each_word(sentence)
