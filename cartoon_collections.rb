@@ -3,7 +3,7 @@
 def roll_call_dwarves(array)
 
   array.each_with_index {|index, dwarf|
-  roll_call_number = array[index] + 1
+  roll_call_number = array[0] + 1
 
   }
   puts "#{roll_call_number}" "." "#{dwarf}"
