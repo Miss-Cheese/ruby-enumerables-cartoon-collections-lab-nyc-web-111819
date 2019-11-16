@@ -4,7 +4,7 @@ def roll_call_dwarves(array)
 
   array.each_with_index {|dwarf, index|
   roll_call_number = (index + 1)
-  return "#{roll_call_number}" + "." + "#{dwarf}"
+  return "#{roll_call_number}" "." "#{dwarf}"
   }
 
 end
