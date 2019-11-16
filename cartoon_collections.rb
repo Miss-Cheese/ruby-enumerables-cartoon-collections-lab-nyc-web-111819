@@ -23,19 +23,18 @@ def find_the_cheese(array)
 
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  kf = nil
+  # kf = nil
 
     cheese_types.each {|cheese|
       # puts cheese
 
       if array.include?(cheese)
         return cheese
-
       end
 
     }
 
-    kf
+    # kf
     # if array.include?("gouda")
     #   return "gouda"
     # end
@@ -43,6 +42,7 @@ def find_the_cheese(array)
     # if array.include?("camembert")
     #   return "camembert"
     # end
+nil
 
 end
 
