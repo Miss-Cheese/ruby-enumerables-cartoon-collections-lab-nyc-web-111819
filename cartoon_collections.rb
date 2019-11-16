@@ -1,19 +1,4 @@
 
-# def roll_call_dwarves(array)
-#
-#   array.each_with_index {|dwarf, index|
-#   roll_call_number = 1
-#
-#   while roll_call_number < array.count do
-#     puts "#{roll_call_number}" "." "#{dwarf}"
-#     roll_call_number += 1
-#   end
-#
-#   }
-#
-# end
-
-
 def roll_call_dwarves(array)
 
   array.each_with_index {|dwarf, index|
@@ -22,10 +7,6 @@ def roll_call_dwarves(array)
   }
 
 end
-
-# def index_to_input(num)
-#   num.to_i + 1
-# end
 
 
 def summon_captain_planet(array)
