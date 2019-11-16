@@ -1,7 +1,7 @@
 
 def roll_call_dwarves(array)
 
-  array.each_with_index {|index, dwarf|
+  array.each_with_index {|dwarf, index|
   roll_call_number = 1
 
   while roll_call_number < array.count do
@@ -16,7 +16,7 @@ end
 
 # def roll_call_dwarves(array)
 #
-#   array.each_with_index {|index, dwarf|
+#   array.each_with_index {|dwarf, index|
 #   roll_call_number = index.to_i + 1
 #
 #   }
