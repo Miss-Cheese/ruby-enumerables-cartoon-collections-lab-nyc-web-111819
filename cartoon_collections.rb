@@ -6,7 +6,7 @@ def roll_call_dwarves(array)
   roll_call_number = (index + 1)
 
   }
-  return "#{roll_call_number}" "." "#{dwarf}"
+  puts "#{roll_call_number}" "." "#{dwarf}"
 
 end
 
