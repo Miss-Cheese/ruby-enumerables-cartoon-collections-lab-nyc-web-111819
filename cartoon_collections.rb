@@ -18,9 +18,9 @@ def roll_call_dwarves(array)
 
   array.each_with_index {|dwarf, index|
   roll_call_number = index + 1
-
-  }
   puts "#{roll_call_number}" "." "#{dwarf}"
+  }
+
 end
 
 # def index_to_input(num)
