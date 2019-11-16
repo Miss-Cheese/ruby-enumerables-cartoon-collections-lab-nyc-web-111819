@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def roll_call_dwarves(array)
 
@@ -26,7 +26,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
     cheese_types.each {|cheese|
-      binding.pry
+
       if array.include?(cheese)
         return cheese
       end
